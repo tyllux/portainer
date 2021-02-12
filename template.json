@@ -105,7 +105,7 @@
 			],
 			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/mariadb.png",
-			"image": "mariadb:latest",
+			"image": "mariadb/server:latest",
 			"env": [{
 				"name": "MYSQL_ROOT_PASSWORD",
 				"label": "Root password"
